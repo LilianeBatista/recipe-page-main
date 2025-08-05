@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Young-serif';
+  src: url('../fontes/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fontes/outfit/static/Outfit-Medium.ttf') format('truetype');
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  padding: 50px;
+  
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px;
+  list-style-position: inside;
+  line-height: 1.5;
+    
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+h1 {
+  padding: 10px 0;
+  font-family: 'Young-serif', sans-serif;
+  
+}
+
+.apresentacao {
+  text-align: justify;
+}
+
+.titulo-preparacao {
+  color: hsl(332, 51%, 32%);
+  font-family: 'Outfit';  
+  padding: 0;
+  font-size: 18px;
+  }
+
+.tempo-de-preparo {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 8px;
+  line-height: 1.8;
+  padding: 10px;
+  border: 50px;
+  list-style-position: inside;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  padding: 15px 0;
+}
+
+section {
+  padding: 10px;
+  
+}
+
