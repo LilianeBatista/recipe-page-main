@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 @font-face {
   font-family: "Young-serif";
   src: url("../fontes/young-serif/YoungSerif-Regular.ttf") format("truetype");
@@ -22,7 +21,7 @@
 
 body {
   background-color: hsl(30, 54%, 90%);
-  padding: 50px;
+  padding: 10vh;
 }
 
 main {
@@ -41,7 +40,7 @@ main {
 img {
   width: 100%;
   border-radius: 6px;
-  }
+}
 
 .apresentacao h1 {
   margin: 0px;
@@ -57,7 +56,6 @@ section.apresentacao {
   text-align: justify;
   padding: 12px 0;
 }
-
 
 .tempo-de-preparo h1 {
   color: hsl(332, 51%, 32%);
@@ -80,9 +78,8 @@ section.tempo-de-preparo {
   font-size: 10px;
 }
 
-
 section {
-  padding-left: 10px;
+  padding: 15px;
 }
 
 h1 {
@@ -95,22 +92,48 @@ h1 {
 .nutrition {
   width: 100%;
   border-collapse: collapse;
-  /* junta bordas */
 }
 
 .nutrition td {
-  padding: 12px 0; /* espaço interno (em cima e embaixo) */
-  border-bottom: 1px solid #ddd; /* linha cinza separadora */
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  padding-left: 16px;
 }
 
 
 .nutrition td strong {
-  color: #7a2c1f;; /* cor marrom avermelhada */
+  color: #7a2c1f;
 }
 
 .linha-divisoria {
   border: none;
-  border-top: 1px solid #ddd; /* linha cinza */
-  margin: 0px 0; /* espaço acima e abaixo da linha */
+  border-top: 1px solid #ddd;
+  margin: 0px 0;
 }
 
+
+ol {
+  list-style: decimal;
+  padding: 15px;
+}
+
+li::marker {
+  color: #7a2c1f;
+  font-weight: bold;
+  margin-right: 5px;
+  
+}
+li {
+  padding-left: 14px;
+  margin-bottom: 8px;
+}
+
+ul li {
+  list-style: disc;
+  margin-left: 15px;
+}
+
+
+.nutrition tbody:last-child td {
+  border-bottom: none !important;
+}
