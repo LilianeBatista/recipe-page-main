@@ -100,7 +100,6 @@ h1 {
   padding-left: 16px;
 }
 
-
 .nutrition td strong {
   color: #7a2c1f;
 }
@@ -111,7 +110,6 @@ h1 {
   margin: 0px 0;
 }
 
-
 ol {
   list-style: decimal;
   padding: 15px;
@@ -121,7 +119,6 @@ li::marker {
   color: #7a2c1f;
   font-weight: bold;
   margin-right: 5px;
-  
 }
 li {
   padding-left: 14px;
@@ -132,7 +129,6 @@ ul li {
   list-style: disc;
   margin-left: 15px;
 }
-
 
 .nutrition tbody:last-child td {
   border-bottom: none !important;
